@@ -1,0 +1,22 @@
+{
+  "name": "api-demo",
+  "version": "1.0.0",
+  "description": "demonstrating a working api for Qsol",
+  "main": "index.js",
+  "scripts": {
+    "test": "Qsol-api-demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavagg01/Qsol-api-demo.git"
+  },
+  "author": "Raghav Aggarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavagg01/Qsol-api-demo/issues"
+  },
+  "homepage": "https://github.com/raghavagg01/Qsol-api-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
