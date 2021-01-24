@@ -9,11 +9,20 @@ router.get('/', (req, res, next) =>{
     });
 });
 router.post('/', (req, res, next) =>{
-    res.status(201).json({
-        message: 'post working',
-        id: '123',
-        sex: 'm'
-    });
+    res.status(201).json(
+        {
+            "items": [
+                {
+                    name: 'Engineering V Semester Examinations Jan 2021',
+                    papercount: '1'
+                },
+                {
+                    name: 'Engineering VII Semester Examinations Jan 2021',
+                    papercount: '1'
+                },
+            ]
+    }
+    );
 });
 
 module.exports = router;
