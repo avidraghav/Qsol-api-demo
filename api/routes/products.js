@@ -5,9 +5,12 @@ router.get('/', (req, res, next) =>{
     res.status(200).json({
         'items':[
             {
-                message: 'get working',
-                id: '123',
-                sex: 'm'
+                name: 'datesheet 1',
+                id: '1',
+            },
+            {
+                name: 'datesheet 2',
+                id: '2',
             }
         ]
      
