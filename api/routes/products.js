@@ -3,9 +3,14 @@ const router = express();
 
 router.get('/', (req, res, next) =>{
     res.status(200).json({
-        message: 'get working',
-        id: '123',
-        sex: 'm'
+        'items':[
+            {
+                message: 'get working',
+                id: '123',
+                sex: 'm'
+            }
+        ]
+     
     });
 });
 router.post('/', (req, res, next) =>{
