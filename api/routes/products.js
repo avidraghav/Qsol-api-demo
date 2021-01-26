@@ -11,7 +11,7 @@ router.get('/', (req, res, next) =>{
 router.post('/', (req, res, next) =>{
     res.status(201).json(
         {
-            message: 'get working 2',
+        message: 'post working',
         id: '123',
         sex: 'm'
     }
