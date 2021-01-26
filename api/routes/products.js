@@ -23,8 +23,8 @@ router.post('/', (req, res, next) =>{
     );
 });
 
-router.get('/:itemId', (req, res, next)=>{
-const id = req.params.productId;
+router.get('/:itemId', (req, res, next) => {
+const id = req.params.itemId;
 if(id === 'special'){
     res.status(200).json({
         message: 'Special id',
