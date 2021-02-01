@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 //const morgan = require('morgan');
 
-const productRoutes = require('./api/routes/products');
+const datesheetRoutes = require('./api/routes/datesheets');
 
 //app.use(morgan('dev'));
-app.use('/datesheets', productRoutes);
+app.use('/datesheets', datesheetRoutes);
 
 app.use((req, res, next) =>{
     const error = new Error('Not found');
