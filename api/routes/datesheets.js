@@ -5,7 +5,7 @@ router.get('/', (req, res, next) =>{
     res.status(200).json({
         'items':[
             {
-                name: 'Engineering V Semester Examinations Jan 2021.pdf',
+                name: 'Engineering V Semester Examinations Jan 2021',
                 url: 'https://firebasestorage.googleapis.com/v0/b/new-database-d16b8.appspot.com/o/IN%2FKU%2FCS%2F05%2FDatesheet%2FEngineering%20V%20Semester%20Examinations%20Jan%202021.pdf?alt=media&token=c38ca851-1060-47d1-adae-0015876927e7',
                 directory:'IN/KU/CS/05/Datesheet',
                 id: '1',
