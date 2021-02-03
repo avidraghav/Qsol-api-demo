@@ -43,6 +43,11 @@ router.get('/', (req, res, next) =>{
                 name: 'BCA 5th sem Jan 2021',
                 url: 'https://firebasestorage.googleapis.com/v0/b/new-database-d16b8.appspot.com/o/IN%2FKU%2FBC%2F05%2FDatesheet%2FBCA%205th%20sem%20Jan%202021.pdf?alt=media&token=9767b10c-9508-433f-91ef-0bce3ca1d144',
                 directory:'IN/KU/BC/05/Datesheet',           
+            },
+            {
+                name: 'MBA 3rd sem January 2021',
+                url: 'https://firebasestorage.googleapis.com/v0/b/new-database-d16b8.appspot.com/o/IN%2FKU%2FMB%2F03%2FDatesheet%2FMBA%203rd%20sem%20January%202021.pdf?alt=media&token=fb1f3843-5266-46ec-a4b2-5f64224ef582',
+                directory:'IN/KU/MB/03/Datesheet',           
             }
 
            
